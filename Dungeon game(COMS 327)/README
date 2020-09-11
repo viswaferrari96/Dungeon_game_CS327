@@ -1,2 +1,2 @@
-Assignment 1.09: PC Equipment and Updated Coombat
+Player Character Equipment and Updated Combat
 In this assignment, we implement the default hitpoints for the player component and introduce the combat semantics in the dungeon for the player. There is equipement slots for the PC to store the weapons and armor and other components.There will be other commands availabel to the PC to do when exploring the dungeon and encountering loot. The combat mechanisms are implemented according to the descriptions and rules of the fight.
