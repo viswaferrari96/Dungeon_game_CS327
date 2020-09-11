@@ -1,0 +1,62 @@
+26/01/2019 - Started working on dungeon generator
+27/01/2019 - room origin placing
+	   - room origin location fine tune simulation
+28/01/2019 - placing basic 4x3 room on each origin
+	   - expanding the 4x3 room to bigger non-rectangular room
+	   - started working on the pathway connection
+29/01/2019 - sorting the room origin points based on the distance
+	   - deleting the ones that colides each other
+	   - started working on printing the stage out
+		
+31/01/2019 - started working on the loading and saving the maps
+	   - encountered numerous bugs on how to access the file load and save it.
+	   
+04/02/2019 - adding funtionality to load and save a dungeon file.
+06/02/2019 - finishing the load and save funtionality and added usage parameters for load adn save.
+07/02/2019 - rectifying the bugs in the load and save functionality
+08/02/2019 - finished all functionalities and added the PC.
+
+02/11/2019 - started working on building path finding 
+	   - queue, deque, deleteNode, changeValue
+	
+
+02/14/2019 - started implementing the Dijkstra's algorithm
+02/17/2019	   - create a queue and save all the nodes in there place the nodes into the one-to-one matching cells
+	   - implement Dijkstra's algorithm
+	   - seperated files on utility 	
+02/20/2019 - started implementing the characters in the dungeon like various monsters.
+	   - generating monsters based on the combinations of intelligence, telepathy, tunneling ability and erratic behavior
+	   - encountered multiple bugs regarding the implementation with the dungeon character implementation.
+02/21/2019 - finished fixing the bugs and trying to make a random path to the PC component in the dungeon.
+02/23/2019 - moving the monsters according to the shortest path and random paths based on their specifications.
+02/25/2019 - finished implementing the monsters pathing towards PC. generated messages to PC state.
+
+03/01/2019 - editted out the unwanted code and started implementing the I/O
+03/03/2019 - trying to implement the staircases to be funtional to move on to next dungeon.
+03/08/2019 - debugging the staircases code and adding new monsters in the dungeon.
+03/09/2019 - finshed implementing the staircases and non-persistent levels
+03/09/2019 - started implementing the messaging and the movement keys
+03/10/2019 - debugged the code and finished the implementation of the ncurses.
+
+03/19/2019 - trying to change the code into C++ and tryign to figure out the inheritance relations between classes.
+03/22/2019 - debugging the code and trying to implement the cheats fog of war and teleport.
+03/23/2019 - finished debugging the code. finishing the fog of war trait
+03/24/2019 - multiple bugs encountered trying to finish the fog of war.
+03/25/2019 - trying to apply the cheats.
+03/26/2019 - finished integrating the fog of war and testing.
+
+03/27/2018 - started implementing the monsters descriptions into the game.
+03/28/2018 - encountered numerous bug regarding the implementation.
+03/29/2018 - implementing the monsters or objects definitions parsing.
+04/01/2018 - finished implementing the definitions parsing of objects,monsters and NPCs 
+
+04/04/2018 - strated implementing the loading of monster and objects into the dungeon.
+04/05/2018 - encountered numerous bugs by implementing the object descriptions and curses color system.
+04/07/2018 - trying to render the colors of the objects and monsters in the dungeon.
+04/10/2018 - finsihed the implemtntation of the color system.
+
+04/11/2018 - Started implemtntation fo the combat mechanisms.
+04/13/2018 - trying to add the commands for the PC comabt semantics.
+04/14/2018 - encountered bugs regarding the implementations. Trying to refine the combar techniques
+04/16/2018 - finished implementing the combat techniques.
+
